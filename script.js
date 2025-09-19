@@ -13,7 +13,6 @@ if(savedUsername && savedPassword){
 
 submit.addEventListener("click",(e)=>{
   e.preventDefault();
-
   if(checkbox.checked){
      localStorage.setItem("username", username.value);
      localStorage.setItem("password", password.value);
